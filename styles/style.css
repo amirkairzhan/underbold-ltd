@@ -9,7 +9,10 @@
 @import './callback.css';
 @import './footer.css';
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Inter", sans-serif;
-    scroll-behavior: smooth;
 }
