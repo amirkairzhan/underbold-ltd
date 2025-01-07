@@ -1,0 +1,67 @@
+.stages__section {
+    margin: 96px auto 0;
+    width: 1190px;
+}
+
+.stages__section h2 {
+    margin-bottom: 49px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 132%;
+    color: #151515;
+    text-align: center;
+}
+
+.stages__list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.stages__list li {
+    width: 391px;
+    height: 403px;
+    display: flex;
+    align-items: end;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    border-radius: 10px;
+}
+
+.stages__list li:first-child {
+    background-image: url(../images/stage-1.png);
+}
+.stages__list li:nth-child(2) {
+    background-image: url(../images/stage-2.png);
+}
+.stages__list li:last-child {
+    background-image: url(../images/stage-3.png);
+}
+
+.stages__text {
+    padding: 36px 21px;
+    width: 100%;
+    height: 183px;
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(21.200000762939453px);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.stages__text h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 110%;
+    color: #fff;
+}
+
+.stages__text p {
+    margin-top: 19px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 147%;
+    color: #fff;
+}

@@ -1,0 +1,14 @@
+@import './header.css';
+@import './about.css';
+@import './global.css';
+@import './capabilities.css';
+@import './application.css';
+@import './documents.css';
+@import './stages.css';
+@import './projects.css';
+@import './callback.css';
+@import './footer.css';
+
+body {
+    font-family: "Inter", sans-serif;
+}

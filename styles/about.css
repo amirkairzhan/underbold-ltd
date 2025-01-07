@@ -1,0 +1,83 @@
+.about__section {
+    margin: auto;
+    width: 1190px;
+}
+
+.about__text {
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 118%;
+    color: #151515;
+}
+
+.about__description {
+    width: 690px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 169%;
+    color: #606060;
+}
+
+.about__images {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__images img {
+    width: 296px;
+    height: 307px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.about__images img:nth-child(2) {
+    width: 546px;
+}
+
+.about__stats {
+    margin-top: 55px;
+    display: flex;
+}
+
+.about__stats li:not(:last-child) {
+    border-right: 0.5px solid #00874e;
+}
+
+.about__stats li:first-child {
+    padding-right: 101.5px;
+}
+
+.about__stats li:nth-child(2) {
+    padding: 0 152px 0 94.5px;
+}
+
+.about__stats li:last-child {
+    padding-left: 80px;
+}
+
+
+.about__stats h3 {
+    padding-top: 6px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 95px;
+    line-height: 56%;
+    color: #00874e;
+}
+
+.about__stats p {
+    margin-top: 36px;
+    padding-bottom: 14.5px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 135%;
+    color: #606060;
+}
